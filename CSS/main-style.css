@@ -1,4 +1,5 @@
 body{
+  font-family: 'Work Sans', sans-serif;;
   margin: 0;
   margin-left: 70px;
   margin-right: 70px;
@@ -15,30 +16,35 @@ body{
   float: left;
 }
 .meniu {
+  margin-left: 10%;
   margin-top: 8px;
   display: inline-block;
 }
-.button, .icon {
+.button {
   margin-right: 4em;
   font-size: 20px;
   line-height: 1em;
   color: #b7b7b7;
   text-decoration: none;
 }
-.button:first-child{
-  color: black;
-}
+
 .button:last-of-type, .icon:last-of-type {
   margin-right: 0;
 }
+.button:hover {
+  color: black;
+}
 .social-link {
-  margin-top: 8px;
+  margin-top: 6px;
   float: right;
 }
-/* .social-link > .icon {
-  margin-right: 4em;
-  font-size: 20px;
+.icon {
+  margin-right: 2em;
+  font-size: 24px;
   line-height: 1em;
   color: #b7b7b7;
   text-decoration: none;
-} */
+}
+.icon:hover {
+  color: black;
+}
