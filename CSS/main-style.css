@@ -1,0 +1,44 @@
+body{
+  margin: 0;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.conteiner{
+  margin-top: 50px;
+}
+.conteiner:first-child {
+  width: 100%;
+  display: inline-block;
+}
+.head-logo {
+  width: 120px;
+  float: left;
+}
+.meniu {
+  margin-top: 8px;
+  display: inline-block;
+}
+.button, .icon {
+  margin-right: 4em;
+  font-size: 20px;
+  line-height: 1em;
+  color: #b7b7b7;
+  text-decoration: none;
+}
+.button:first-child{
+  color: black;
+}
+.button:last-of-type, .icon:last-of-type {
+  margin-right: 0;
+}
+.social-link {
+  margin-top: 8px;
+  float: right;
+}
+/* .social-link > .icon {
+  margin-right: 4em;
+  font-size: 20px;
+  line-height: 1em;
+  color: #b7b7b7;
+  text-decoration: none;
+} */
