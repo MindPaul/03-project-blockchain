@@ -3,6 +3,7 @@ body{
   margin: 0;
   margin-left: 70px;
   margin-right: 70px;
+  box-sizing: border-box;
 }
 .conteiner{
   margin-top: 50px;
@@ -47,4 +48,82 @@ body{
 }
 .icon:hover {
   color: black;
+}
+
+main {
+  margin-top: 40px;
+  height: 451px;
+  position: relative;
+}
+.navigator-button {
+  float: left;
+  position: absolute;
+  top: 50%;
+  position: relative;
+  
+
+}
+.up, .down {
+  width: 40px;
+  height: 40px;
+  color: black;
+  font-size: 40px;
+  text-decoration: none;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 100%;
+  text-align: center;
+}
+.up {
+  position: absolute;
+  top: -25px;
+}
+.down {
+  position: absolute;
+  top: 25px;
+}
+.up:hover, .down:hover {
+  color: white;
+  background-color: black;
+}
+
+
+.content {
+  width: 30%;
+  display: inline-block;
+  position: absolute;
+  top: 158px;
+  left: 230px;
+}
+.head {
+  margin: 0;
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 1em;
+}
+.web-link {
+  font-size: 20px;
+  line-height: 1em;
+  text-decoration: none;
+  color: #b7b7b7;
+}
+.web-link::after{
+  content: ',';
+}
+.web-link:last-of-type::after {
+  content: '';
+}
+.web-link:hover {
+  color: black;
+  text-decoration-line: underline;
+}
+
+.main-img {
+  width: 555px;
+  margin-right: 40px;
+  float: right;
+  position: absolute;
+  right: 5%;
+
 }
