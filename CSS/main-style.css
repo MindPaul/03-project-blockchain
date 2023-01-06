@@ -55,36 +55,31 @@ main {
   height: 451px;
   position: relative;
 }
-.navigator-button {
-  float: left;
+
+.up, .down {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: #f2f2f2;
   position: absolute;
-  top: 50%;
   position: relative;
   
-
-}
-.up, .down {
-  width: 40px;
-  height: 40px;
-  color: black;
-  font-size: 40px;
-  text-decoration: none;
-  background-color: #f2f2f2;
-  border: 1px solid #f2f2f2;
-  border-radius: 100%;
-  text-align: center;
 }
 .up {
-  position: absolute;
-  top: -25px;
+  margin-bottom: 14px;
+  top: 40%;
 }
 .down {
+  top: 40%;
+}
+.fa-chevron-up, .fa-chevron-down {
   position: absolute;
-  top: 25px;
+  top: 16px;
+  left: 17px;
 }
 .up:hover, .down:hover {
-  color: white;
   background-color: black;
+  color: #f2f2f2;
 }
 
 
@@ -125,5 +120,6 @@ main {
   float: right;
   position: absolute;
   right: 5%;
+  top: 0;
 
 }
